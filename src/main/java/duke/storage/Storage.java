@@ -30,7 +30,7 @@ public class Storage {
 
     private static final String FILE_PATH = "data/duke.txt";
 
-    public void saveDataToFile() {
+    public static void saveDataToFile(TaskList taskList) {
         try {
             FileWriter writer = new FileWriter(FILE_PATH);
 

@@ -80,9 +80,9 @@ public class Ui {
 
                     System.out.println(Parser.processCommand(command));
 
-                    Storage storage = new Storage(Parser.taskList);
+//                    Storage storage = new Storage(Parser.taskList);
 
-                    storage.saveDataToFile();
+                    Storage.saveDataToFile(Parser.taskList);
 
                 }
             } catch(Exception e){
